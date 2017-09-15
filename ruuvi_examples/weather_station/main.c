@@ -80,8 +80,8 @@ APP_TIMER_DEF(main_timer_id);                                             /** Cr
 #define MAIN_LOOP_INTERVAL_RAW 1000u
 
 //Payload requires 8 characters
-#define URL_BASE_LENGTH 8
-static char url_buffer[17] = {'r', 'u', 'u', '.', 'v', 'i', '/', '#'};
+#define URL_BASE_LENGTH 10
+static char url_buffer[17] = {'i', 't', 'u', 'i', 'b', '.', 'n', 'o', '/', '#'};
 static uint8_t data_buffer[18] = { 0 };
 bool model_plus = false; //Flag for sensors available
 bool highres    = false; //Flag for used mode
